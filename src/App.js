@@ -6,11 +6,10 @@ import './components/MovieList';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
 
-
 function App() {
   return (
     <div className="App">
-      <Header className="header"/>
+      <Header className="header" />
       <MovieList movies={movies} />
     </div>
   );
