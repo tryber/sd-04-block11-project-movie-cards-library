@@ -3,7 +3,11 @@ import React from 'react';
 class Rating extends React.Component {
   render() {
     const { stars } = this.props;
-    return <p>{stars}</p>;
+    return (
+      <div className="movie-card-rating">
+        <p className="rating">{stars}</p>
+      </div>
+    );
   }
 }
 
