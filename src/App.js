@@ -6,7 +6,7 @@ import MovieList from './components/MovieList';
 import MovieCard from './components/MovieCard';
 import Rating from './components/Rating';
 
-const movie = movies.map(({ title, subtitle, storyline, imagePath, rating }) => (
+const MovieCard = movies.map(({ title, subtitle, storyline, imagePath, rating }) => (
   <li>
     <MovieCard
       key={title}
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList movies={movie} />
+      <MovieList movies={MovieCard} />
     </div>
   );
 }
