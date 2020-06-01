@@ -1,1 +1,17 @@
-// implement MovieCard component here
+import React from 'react';
+import Rating from './Rating';
+
+const MovieCart = ({ movie }) => {
+  const { title, subtitle, storyline, rating, imagePath } = movie;
+  return (
+    <div className="movie-card">
+      <img className="movie-card-image" src={imagePath} alt={title} />
+      <h4 className="movie-card-body">{title}</h4>
+      <h5 className="movie-card-subtitle">{subtitle}</h5>
+      <p className="movie-card-storyline">{storyline}</p>
+      <Rating rating={rating} />
+    </div>
+  );
+};
+
+export default MovieCart;
