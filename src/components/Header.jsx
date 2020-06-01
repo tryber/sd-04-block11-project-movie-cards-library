@@ -1,1 +1,1 @@
-// implement Header component her
+// implement Header component hero
