@@ -10,7 +10,7 @@ import MovieList from './components/MovieList';
 function App() {
   return (
     <div className="App">
-      <Header className="header"></Header>
+      <Header className="header"/>
       <MovieList movies={movies} />
     </div>
   );
