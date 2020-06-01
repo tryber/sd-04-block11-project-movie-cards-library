@@ -8,9 +8,9 @@ class MovieCard extends React.Component {
     return (
       <div>
         <div>
-          <h2>{movie.title}</h2>
-          <h4>{movie.subtitle}</h4>
-          <Rating rating={movie.rating} />
+          <h4>{movie.title}</h4>
+          <h5>{movie.subtitle}</h5>
+          <Rating class="rating" rating={movie.rating} />
           <p>{movie.storyline}</p>
         </div>
         <div>
