@@ -12,7 +12,7 @@ class MovieCard extends React.Component {
           <p>{this.props.storyline}</p>
         </div>
         <div>
-          <img src={this.props.src} alt={this.props.alt} />
+          <image src={this.props.src} alt={this.props.alt} />
         </div>
       </div>
     );

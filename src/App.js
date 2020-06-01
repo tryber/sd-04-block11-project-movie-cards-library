@@ -9,14 +9,14 @@ import Rating from './components/Rating';
 const movie = movies.map(({ title, subtitle, storyline, imagePath, rating }) => (
   <li>
     <MovieCard
+      key={title}
       title={title}
       subtitle={subtitle}
       storyline={storyline}
       src={imagePath}
       alt={title}
-      rating={<Rating rating={rating} />}
     />
-
+    <Rating rating={rating} />
   </li>
 ));
 
