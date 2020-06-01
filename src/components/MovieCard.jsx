@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import Rating from "./Rating";
+import Rating from './Rating';
 
 const MovieCard = ({ movie }) => {
   const { title, subtitle, storyline, imagePath, rating } = movie;
