@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgb(120, 120, 120);
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -36,7 +36,6 @@ body {
   overflow: hidden;
   width: 300px;
 }
-
 
 .movie-card-image {
   width: 100%;
@@ -81,3 +80,48 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
+
+.header {
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+  border-bottom: 3px groove white;
+  color: rgb(214, 182, 38);
+  display: flex;
+  font-size: 50px;
+  height: 140px;
+  justify-content: center;
+  letter-spacing: 0.08em;
+  width: 100%;
+}
+
+.moviesDiv {
+  background-color: rgb(125, 125, 125);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.movieCard {
+  background-color: rgb(250, 250, 250);
+  border: 3px solid black;
+  border-radius: 50px;
+  height: 600px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 350px;
+}
+
+.movieParagraph {
+  color: rgb(125, 125, 125);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.movieImage {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 250px;
+  width: 350px;
+}
+
