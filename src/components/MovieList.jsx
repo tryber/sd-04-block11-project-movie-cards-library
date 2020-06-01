@@ -9,9 +9,9 @@ class MovieList extends React.Component {
   render() {
     return (
       <div className="moviesDiv">
-        {movies.map((movie) => (
+        {movies.map((movie, index) => (
           <div className="cardMovie">
-            <MovieCard key={movies.title} movie={movie} />
+            <MovieCard key={movie.name} movie={movie} />
             <Rating key={movie.rating} movie={movie} />
           </div>
         ))}

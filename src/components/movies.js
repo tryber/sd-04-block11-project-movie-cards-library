@@ -25,7 +25,7 @@ const movies = [
     rating: 4.9,
     imagePath:
       'https://cdn.ticketsource.co.uk/images/promoter/banner/25704-1536343768045.jpg',
-  }
+  },
 ];
 
 export default movies;

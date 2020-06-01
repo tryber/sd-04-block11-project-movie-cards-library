@@ -131,11 +131,3 @@ body {
   text-align: center;
   width: 170px;
 }
-
-.cardMovie {
-  background-color: rgb(10, 10, 10);
-  border: 1px solid white;
-  border-radius: 50px;
-  margin: 30px;
-  padding: 2px;
-}
