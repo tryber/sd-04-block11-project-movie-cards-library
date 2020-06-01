@@ -6,10 +6,10 @@ import data from './data';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <MovieList movies={data} />
-    </>
+    </div>
   );
 }
 
