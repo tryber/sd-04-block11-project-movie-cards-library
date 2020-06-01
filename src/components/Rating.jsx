@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // implement Rating component here
 
 class Rating extends React.Component {
