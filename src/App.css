@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgb(120,120,120);
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -80,4 +80,48 @@ body {
   display: flex;
   justify-content: flex-end;
   padding: 12px 20px;
+}
+
+.header {
+  background-color: rgb(10,10,10);
+  height: 140px;
+  width: 100%;
+  border-bottom: 3px groove white;
+  color: rgb(214, 182, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.08em;
+}
+
+.moviesDiv {
+  background-color: rgb(125,125,125);
+  display: flex;
+  flex-flow: row wrap;
+
+}
+ .movieCard {
+   border: 3px solid black;
+   width: 350px;
+   margin: 20px;
+   padding: 30px;
+   height: 600px;
+   background-color: rgb(250,250,250);
+   border-radius: 50px;
+   text-align: center;
+ }
+
+ .movieParagraph {
+   font-style: italic;
+   color: rgb(125,125,125);
+   font-size: 15px;
+ }
+ 
+.movieImage {
+  width: 350px;
+  border-radius: 30px;
+  height: 250px;
+  border: 2px solid black;
 }
