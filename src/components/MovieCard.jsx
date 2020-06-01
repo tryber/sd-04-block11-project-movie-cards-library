@@ -3,21 +3,20 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    console.log(this.props);
-    const { movieObj } = this.props;
+    const { movie } = this.props;
     return (
       <div className="movie-card">
         <div className="movie-card-body">
           <img
-            src={movieObj.imagePath}
-            alt={movieObj.title}
+            src={movie.imagePath}
+            alt={movie.title}
             className="movie-card-image"
           />
-          <h4 className="movie-card-title">{movieObj.title}</h4>
-          <h5 className="movie-card-subtitle">{movieObj.subtitle}</h5>
-          <p className="movie-card-storyline">{movieObj.storyline}</p>
+          <h4 className="movie-card-title">{movie.title}</h4>
+          <h5 className="movie-card-subtitle">{movie.subtitle}</h5>
+          <p className="movie-card-storyline">{movie.storyline}</p>
         </div>
-        <Rating stars={movieObj.rating} />
+        <Rating rating={movie.rating} />
       </div>
     );
   }
