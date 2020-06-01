@@ -9,7 +9,7 @@ import MovieList from './components/MovieList';
 function App() {
   return (
     <div className="App">
-      <Header className="header" />
+      <Header className="movie-card-header" />
       <MovieList movies={movies} />
     </div>
   );
