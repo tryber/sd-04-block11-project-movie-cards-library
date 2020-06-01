@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 import movies from './data';
 import MovieList from './components/MovieList';
 
 function App() {
   return (
     <div className="App">
-      <MovieList listFilms={movies} />
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
+      <Header />
+      <MovieList movies={movies} />
     </div>
   );
 }
