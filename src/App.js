@@ -23,7 +23,7 @@ const movie = movies.map(({ title, subtitle, storyline, imagePath, rating }) => 
 function App() {
   return (
     <div className="App">
-      <Header text="Movie Cards Library" />
+      <Header />
       <MovieList movies={movie} />
     </div>
   );

@@ -5,7 +5,7 @@ class Header extends React.Component {
     return (
       <header>
         <h1>
-          {this.props.text}
+        Movie Cards Library
         </h1>
       </header>
     );
