@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList listaFilmes={movies} />
+      <MovieList movieList={movies} />
       {/* <MovieCard /> */}
       {/* <Rating /> */}
     </div>
