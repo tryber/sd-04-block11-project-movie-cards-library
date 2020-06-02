@@ -8,7 +8,7 @@ class Rating extends React.Component {
       <div className="movie-card-rating rating">
 				{rating}
       </div>
-    )
+    );
   }
 }
 export default Rating;
