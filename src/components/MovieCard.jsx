@@ -6,7 +6,7 @@ class MovieCard extends Component {
     const movie = this.props.movie;
     return (
       <div>
-        <img src={movie.imagePath} alt="Filme"/>
+        <img src={ movie.imagePath } alt="Filme" />
       </div>
     );
   }
