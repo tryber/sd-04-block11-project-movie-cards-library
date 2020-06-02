@@ -4,12 +4,11 @@ import Header from './components/Header';
 import MovieList from './components/MovieList';
 import mvs from './data';
 
-//const teste = 'testando';
 function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList movies={mvs}/>
+      <MovieList movies={mvs} />
     </div>
   );
 }
