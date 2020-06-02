@@ -6,11 +6,9 @@ import MovieList from './components/MovieList.jsx';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <div className="App">
-        <MovieList movies={data} />
-      </div>
+      <MovieList movies={data} />
     </div>
   );
 }
