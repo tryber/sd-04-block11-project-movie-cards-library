@@ -6,12 +6,12 @@ import MovieList from './components/MovieList.jsx';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <div className="App">
         <MovieList movies={data} />
       </div>
-    </>
+    </div>
   );
 }
 
