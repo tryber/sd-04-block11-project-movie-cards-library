@@ -2,7 +2,8 @@
 import React from 'react';
 import Rating from './Rating';
 
-function MovieCard({ title, subtitle, storyline, rating, imagePath }) {
+function MovieCard({ movie }) {
+  const { title, subtitle, storyline, rating, imagePath } = movie;
   return (
     <div className="movie-card">
       <div>
