@@ -6,9 +6,9 @@ class MovieList extends React.Component {
     const { movies } = this.props; // destructuring
     return (
       <div className="movie-list">
-        {movies.map((movieMap) => // s/bigodes
+        {movies.map((movieMap) => (
           <MovieCard key={movieMap.title} movie={movieMap} />
-        )};
+        ))};
       </div>
     );
   }
