@@ -5,10 +5,10 @@ class MovieList extends React.Component {
   render() {
     const { movies } = this.props; // destructuring
     return (
-      <div>
+      <div className="movie-list">
         {movies.map((movieMap) => // s/bigodes
           <MovieCard key={movieMap.title} movie={movieMap} />
-        )}
+        )};
       </div>
     );
   }
