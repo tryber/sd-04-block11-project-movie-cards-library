@@ -9,8 +9,8 @@ class MovieList extends React.Component {
           <div>
             {movies.map((item) => <Cards movies={item} />)}
           </div>
-      )
+      );
   }
 }
 
-export default MovieList
+export default MovieList;
