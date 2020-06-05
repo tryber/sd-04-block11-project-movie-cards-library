@@ -6,7 +6,7 @@ export default class MovieList extends Component {
     const {movies} = this.props;
     return (
       <div>
-        {movies.map((element, index) => <MovieCard key={index} movie={element}/>)}
+        {movies.map(element => <MovieCard key={element.title} movie={element}/>)}
       </div>
     );
   }
