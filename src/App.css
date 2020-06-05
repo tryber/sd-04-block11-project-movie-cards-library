@@ -39,7 +39,7 @@ body {
 }
 
 .movie-card:hover {
-  box-shadow: inset 0 0 1em #1d1c16, 0 0 1em #d42929;
+  box-shadow: inset 0 0 1em #1d1c16 , 0 0 1em #d42929;
 }
 
 .movie-card-image {
