@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header />
-      <MovieList movies = {data} />
+      <MovieList movies={data} />
     </div>
   );
 }
