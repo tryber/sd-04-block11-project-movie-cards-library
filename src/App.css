@@ -54,7 +54,7 @@ body {
 }
 
 .movie-card-subtitle {
-  color: #222222;
+  color: rgb(26, 26, 26);
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
