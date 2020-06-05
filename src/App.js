@@ -6,10 +6,10 @@ import MovieList from './components/MovieList.jsx';
 
 function App() {
   return (
-    <>
-    <Header />
-    <MovieList movies = {data} />
-    </>
+    <div>
+      <Header />
+      <MovieList movies = {data} />
+    </div>
   );
 }
 
