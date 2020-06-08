@@ -66,7 +66,7 @@ describe('<MovieList /> component', () => {
   });
 });
 
-describe.skip('<MovieCard /> component', () => {
+describe('<MovieCard /> component', () => {
   const movie = movies[0];
 
   it('renders without crashing', () => {
