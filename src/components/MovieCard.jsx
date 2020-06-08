@@ -7,6 +7,7 @@ class MovieCard extends React.Component {
     return (
       <div className="movie-card">
         <img className="movie-card-image" src={imagePath} />
+        <h4 className="movie-card-title">{title}</h4>
       </div>
     );
   }
